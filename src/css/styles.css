@@ -7,14 +7,63 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
+  background-color: rgb(192, 192, 192, 0.5);
   color: #212121;
   line-height: 1.5;
 }
+li{
+  list-style: none;
+}
 
 #search-box {
+  display: block;
   font: inherit;
   padding: 8px;
   max-width: 320px;
-  margin-bottom: 16px;
+  margin-bottom: 25px;
+  margin-left: 40px;
+  
+}
+
+.country-list__item{
+  display: flex;
+  align-items: center;
+}
+.country-list__item:not(:last-child){
+  margin-bottom: 10px;
+}
+.country-list__img {
+  display: block;
+  margin-right: 20px;
+}
+.country-list__text{
+  display: block;
+}
+
+.country-info__title{
+  display: block;
+  margin-left: 40px;
+}
+.country-info__img{
+  display: block;
+  margin-left: 40px;
+}
+.country-info__russianWarShipGoFuckYourself{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.country-info__orks{
+  display: block;
+  text-align: center;
+  color: red;
+  margin: 0;
+  margin-left: 30px;
+
+}
+.country-info__putinHuilo{
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+
 }
